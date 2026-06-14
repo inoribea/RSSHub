@@ -9389,8 +9389,7 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/anthropic/news",
         "parameters": {},
@@ -15456,7 +15455,8 @@ export default {
           "hyoban"
         ],
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "view": 3,
         "example": "/bilibili/ranking/0",
@@ -39748,8 +39748,7 @@ export default {
       "/gnn/:category?": {
         "path": "/gnn/:category?",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "view": 0,
         "example": "/gamer/gnn/1",
@@ -84864,7 +84863,8 @@ export default {
       "/model/:username/:language?/:sort?": {
         "path": "/model/:username/:language?/:sort?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "view": 3,
         "example": "/pornhub/model/stacy-starando",
@@ -84901,7 +84901,8 @@ export default {
       "/pornstar/:username/:language?/:sort?": {
         "path": "/pornstar/:username/:language?/:sort?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "view": 3,
         "example": "/pornhub/pornstar/june-liu/www/mr",
